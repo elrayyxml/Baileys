@@ -52,6 +52,7 @@
     "libsignal": "github:ElrayyXml/signal-node",
     "lodash": "^4.17.21",
     "music-metadata": "^7.12.3",
+    "audio-decode": "^2.2.2",
     "pino": "^9.6",
     "protobufjs": "^6.11.3",
     "sharp": "^0.34.1",
@@ -120,6 +121,7 @@
   }
 
 }
+
 
 
 
