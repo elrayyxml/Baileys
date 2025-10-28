@@ -1,7 +1,7 @@
 {
   "name": "@elrayyxml/baileys",
-  "version": "1.0.0",
-  "description": "Baileys modified Fork techwiz-baileys",
+  "version": "1.0.0-rc.6",
+  "description": "Baileys modified",
   "keywords": [
     "baileys",
     "ElrayyXml",
@@ -120,5 +120,6 @@
   }
 
 }
+
 
 
