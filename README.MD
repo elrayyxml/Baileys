@@ -1,11 +1,11 @@
-# Baileys Modified
+### Baileys Modified
 
 [![npm version](https://img.shields.io/npm/v/@elrayyxml/baileys.svg)](https://www.npmjs.com/package/@elrayyxml/baileys)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-API-green.svg?logo=whatsapp)](https://whatsapp.com)
 [![Node.js](https://img.shields.io/badge/Node.js-20%2B-green.svg)](https://nodejs.org)
 
-## Installation
+### Installation
 
 ```bash
 npm install @elrayyxml/baileys
@@ -13,7 +13,7 @@ npm install @elrayyxml/baileys
 yarn add @elrayyxml/baileys
 ```
 
-## Contact
+### Contact
 
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/elrayyxml)
 [![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://tik-tok.com/@elrayyxml)
