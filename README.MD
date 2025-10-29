@@ -1,4 +1,13 @@
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 ### Baileys Modified
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+- [x] Support Hosting (cPanel, Plesk, DirectAdmin, cyberPanel)
+- [x] No Need For FFMPEG
+- [x] Libsignal Updated
+- [x] No Spam Console
+- [x] Support send channel
+- [x] Fix LID
+- [x] Support button
 
 [![npm version](https://img.shields.io/npm/v/@elrayyxml/baileys.svg)](https://www.npmjs.com/package/@elrayyxml/baileys)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
