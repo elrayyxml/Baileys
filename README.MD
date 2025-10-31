@@ -23,6 +23,30 @@ npm install @elrayyxml/baileys
 yarn add @elrayyxml/baileys
 ```
 
+### `package.json` Fork Baileys
+
+```json
+"dependencies": {
+  "baileys": "npm:@elrayyxml/baileys"
+}
+```
+
+### participant groupMetaData
+
+```bash
+participants.some(participant => participant.jid === sender && participant.admin); // jid 62xxx@s.whatsapp.net, id 123xxx@lid, lid 123xxx@lid
+```
+
+### participant groupUpdate
+
+```json
+{
+  id: remoteJid,
+  action: add,
+  participant: jid
+}
+```
+
 
 ### Contact
 
