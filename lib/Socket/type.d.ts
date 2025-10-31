@@ -1,6 +1,6 @@
 import { proto } from '../../WAProto';
 
-declare namespace type {
+declare namespace elrayyxml {
     interface MediaUploadOptions {
         fileEncSha256?: Buffer;
         mediaType?: string;
@@ -189,65 +189,65 @@ declare namespace type {
     }
 }
 
-declare class type {
+declare class elrayyxml {
     constructor(
-        utils: type.Utils,
-        waUploadToServer: type.WAMediaUploadFunction,
+        utils: elrayyxml.Utils,
+        waUploadToServer: elrayyxml.WAMediaUploadFunction,
         relayMessageFn?: (jid: string, content: any, options?: any) => Promise<any>
     );
     
-    detectType(content: type.MessageContent): 'PAYMENT' | 'PRODUCT' | 'INTERACTIVE' | 'ALBUM' | 'EVENT' | 'POLL_RESULT' | 'GROUP_STORY' | null;
+    detectType(content: elrayyxml.MessageContent): 'PAYMENT' | 'PRODUCT' | 'INTERACTIVE' | 'ALBUM' | 'EVENT' | 'POLL_RESULT' | 'GROUP_STORY' | null;
 
     handlePayment(
-        content: { requestPaymentMessage: type.PaymentMessage },
+        content: { requestPaymentMessage: elrayyxml.PaymentMessage },
         quoted?: proto.IWebMessageInfo
     ): Promise<{ requestPaymentMessage: proto.Message.RequestPaymentMessage }>;
 
     handleProduct(
-        content: { productMessage: type.ProductMessage },
+        content: { productMessage: elrayyxml.ProductMessage },
         jid: string,
         quoted?: proto.IWebMessageInfo
     ): Promise<{ viewOnceMessage: proto.Message.ViewOnceMessage }>;
 
     handleInteractive(
-        content: { interactiveMessage: type.InteractiveMessage },
+        content: { interactiveMessage: elrayyxml.InteractiveMessage },
         jid: string,
         quoted?: proto.IWebMessageInfo
     ): Promise<{ interactiveMessage: proto.Message.InteractiveMessage }>;
 
     handleAlbum(
-        content: { albumMessage: type.AlbumItem[] },
+        content: { albumMessage: elrayyxml.AlbumItem[] },
         jid: string,
         quoted?: proto.IWebMessageInfo
     ): Promise<any>;
 
     handleEvent(
-        content: { eventMessage: type.EventMessage },
+        content: { eventMessage: elrayyxml.EventMessage },
         jid: string,
         quoted?: proto.IWebMessageInfo
     ): Promise<any>;
     
     handlePollResult(
-        content: { pollResultMessage: type.PollResultMessage },
+        content: { pollResultMessage: elrayyxml.PollResultMessage },
         jid: string,
         quoted?: proto.IWebMessageInfo
     ): Promise<any>;
 
     handleGroupStory(
-        content: { groupStatusMessage: type.GroupStatusMessage },
+        content: { groupStatusMessage: elrayyxml.GroupStatusMessage },
         jid: string,
         quoted?: proto.IWebMessageInfo
     ): Promise<any>;
 
     buildMessageContent(
         content: any,
-        opts?: type.WAMessageContentGenerationOptions
+        opts?: elrayyxml.WAMessageContentGenerationOptions
     ): Promise<any>;
 
-    utils: type.Utils;
+    utils: elrayyxml.Utils;
     relayMessage: (jid: string, content: any, options?: any) => Promise<any>;
-    waUploadToServer: type.WAMediaUploadFunction;
-    bail: type.BailUtils;
+    waUploadToServer: elrayyxml.WAMediaUploadFunction;
+    bail: elrayyxml.BailUtils;
 }
 
-export = type;
+export = elrayyxml;
