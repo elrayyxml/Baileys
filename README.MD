@@ -1,5 +1,5 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-### Baileys Modified
+### Baileys Modified --- @elrayyxml/baileys
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 - [x] Support Hosting (cPanel, Plesk, DirectAdmin, cyberPanel)
 - [x] No Need For FFMPEG
@@ -42,7 +42,6 @@ yarn add @elrayyxml/baileys
 > Link Channel [Click Here](https://whatsapp.com/channel/0029Vb69z8n1dAvztHQTDu3r)
 
 <div align="center">
-p>
   <a href="https://www.npmjs.com/package/@elrayyxml/baileys">
     <img src="https://img.shields.io/npm/v/@elrayyxml/baileys?color=00b894&label=version&logo=npm" alt="npm version" />
   </a>
@@ -52,7 +51,6 @@ p>
   <a href="https://whatsapp.com/channel/0029Vb69z8n1dAvztHQTDu3r">
     <img src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?logo=whatsapp&logoColor=white" alt="WhatsApp Channel" />
   </a>
-</p>
 </div>
 
 
