@@ -9,13 +9,11 @@
 - [x] Fix LID
 - [x] Support button
 
-<div align="center">
 [![npm version](https://img.shields.io/npm/v/@elrayyxml/baileys.svg)](https://www.npmjs.com/package/@elrayyxml/baileys)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-API-green.svg?logo=whatsapp)](https://whatsapp.com)
 [![Node.js](https://img.shields.io/badge/Node.js-20%2B-green.svg)](https://nodejs.org)
 [![npm downloads](https://img.shields.io/npm/dt/@elrayyxml/baileys.svg?color=blueviolet&label=Downloads&logo=npm)](https://www.npmjs.com/package/@elrayyxml/baileys)
-</div>
 
 ### Installation
 
