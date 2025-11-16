@@ -58,7 +58,7 @@ yarn add @elrayyxml/baileys
     <img src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?logo=whatsapp&logoColor=white" alt="WhatsApp Channel" />
   </a>
 </div>
- 
+
 ## Example
 
 Do check out & run [example.ts](Example/example.ts) to see an example usage of the library.
@@ -460,7 +460,7 @@ sock.ev.on('creds.update', saveCreds)
 import pino from "pino"
 import { makeInMemoryStore, getAggregateVotesInPollMessage } from '@elrayyxml/baileys'
 
-const logger = pino({ timestamp: () => `,"time":"${new Date().toJSON()}"` }).child({ class: "@elrayyxml" })
+const logger = pino({ timestamp: () => `,"time":"${new Date().toJSON()}"` }).child({ class: "@Itsockchann" })
 logger.level = "fatal"
 const store = makeInMemoryStore({ logger })
 
@@ -650,7 +650,7 @@ await sock.sendMessage(
     id,
     { 
         contacts: { 
-            displayName: 'Itsockchann', 
+            displayName: 'ElrayyXml', 
             contacts: [{ vcard }] 
         }
     }
@@ -664,7 +664,7 @@ await sock.sendMessage(
     jid,
     {
         react: {
-            text: 'ðŸ’–', // use an empty string to remove the reaction
+            text: '💖', // use an empty string to remove the reaction
             key: message.key
         }
     }
@@ -910,14 +910,14 @@ await sock.sendMessage(
             cover: Buffer, // Image buffer
             stickers: [{
                 sticker: { url: 'https://example.com/1234kjd.webp' }, 
-                emojis: ['â¤'], // optional
+                emojis: ['❤'], // optional
                 accessibilityLabel: '', // optional
                 isLottie: Boolean, // optional
                 isAnimated: Boolean // optional
             }, 
             {
                 sticker: Buffer, 
-                emojis: ['â¤'], // optional
+                emojis: ['❤'], // optional
                 accessibilityLabel: '', // optional
                 isLottie: Boolean, // optional
                 isAnimated: Boolean // optional
@@ -2639,6 +2639,3 @@ sock.ws.on('CB:edge_routing,id:abcd', (node: BinaryNode) => { })
 // for any message with tag 'edge_routing', id attribute = abcd & first content node routing_info
 sock.ws.on('CB:edge_routing,id:abcd,routing_info', (node: BinaryNode) => { })
 ```
-
-> [!NOTE]
-> Also, this repo is now licenced under GPL 3 since it uses [libsignal-node](https://git.questbook.io/backend/service-coderunner/-/merge_requests/1)
