@@ -58,12 +58,3 @@ yarn add @elrayyxml/baileys
     <img src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?logo=whatsapp&logoColor=white" alt="WhatsApp Channel" />
   </a>
 </div>
-
-
-### Thanks To
-
-> **WhiskeySockets**
->
-> **N-Star** 
->
-> **Techwiz**
