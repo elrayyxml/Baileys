@@ -2,13 +2,19 @@
 
 <div align="center">
 
-### Baileys Modified
+### @elrayyxml/baileys
 
 </div>
 
-<img src="https://files.catbox.moe/dmz2fn.jpg" width="300" alt="Elaina Bail Banner" />
-
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+
+<p><em>Baileys Modified</em></p>
+
+
+<img src="https://files.catbox.moe/7m4cuw.jpg" width="300" alt="Cover Banner" />
+
+---
+
 - [x] Support Hosting (cPanel, Plesk, DirectAdmin, cyberPanel)
 - [x] No Need For FFMPEG
 - [x] Libsignal Updated
