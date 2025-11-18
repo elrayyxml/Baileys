@@ -37,6 +37,7 @@
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-API-green.svg?logo=whatsapp)](https://whatsapp.com)
 [![Node.js](https://img.shields.io/badge/Node.js-20%2B-green.svg)](https://nodejs.org)
 [![npm downloads](https://img.shields.io/npm/dt/@elrayyxml/baileys.svg?color=blueviolet&label=Downloads&logo=npm)](https://www.npmjs.com/package/@elrayyxml/baileys)
+[![Web API](https://img.shields.io/badge/Web_API-FF7139?style=for-the-badge&logo=internet-explorer&logoColor=white)](https://api.elrayyxml.web.id)
 
 </div>
 
