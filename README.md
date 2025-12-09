@@ -2,7 +2,7 @@
 
 <div align="center">
 
-### @elrayyxml/baileys
+## @elrayyxml/baileys
 
 </div>
 
@@ -18,18 +18,6 @@
 
 ---
 
-- [x] Support Hosting (cPanel, Plesk, DirectAdmin, cyberPanel)
-- [x] No Need For FFMPEG
-- [x] Libsignal Updated
-- [x] No Spam Console
-- [x] Support send channel
-- [x] Fix LID and Native LID
-- [x] Support button
-- [x] Fix Pairing
-- [x] AI Private
-- [x] Support Group SW and Album
-
-
 <div align="center">
 
 [![npm version](https://img.shields.io/npm/v/@elrayyxml/baileys.svg)](https://www.npmjs.com/package/@elrayyxml/baileys)
@@ -37,12 +25,35 @@
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-API-green.svg?logo=whatsapp)](https://whatsapp.com)
 [![Node.js](https://img.shields.io/badge/Node.js-20%2B-green.svg)](https://nodejs.org)
 [![npm downloads](https://img.shields.io/npm/dt/@elrayyxml/baileys.svg?color=blueviolet&label=Downloads&logo=npm)](https://www.npmjs.com/package/@elrayyxml/baileys)
-[![REST API](https://img.shields.io/badge/REST_API-green.svg)](https://api.elrayyxml.web.id)
+[![REST API](https://img.shields.io/badge/REST_API-green.svg)](https://api.nexray.web.id)
 
 </div>
 
-### Installation
+## Contact
 
+<div align="center">
+
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/elrayyxml)
+[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://tik-tok.com/@elrayyxml)
+[![Email](https://img.shields.io/badge/Email-elrayy68@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:elrayy68@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-6289526377530-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6289526377530)
+
+</div>
+
+## Official Channel
+
+<div align="center">
+  <a href="https://whatsapp.com/channel/0029Vb69z8n1dAvztHQTDu3r">
+    <img src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?logo=whatsapp&logoColor=white" alt="WhatsApp Channel" />
+  </a>
+  
+</div>
+
+
+
+## Installation
+
+Use the stable version:
 ```bash
 npm install @elrayyxml/baileys
 # or
@@ -57,203 +68,10 @@ yarn add @elrayyxml/baileys
 }
 ```
 
-### Contact
-
-<div align="center">
-
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/elrayyxml)
-[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://tik-tok.com/@elrayyxml)
-[![Email](https://img.shields.io/badge/Email-elrayy68@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:elrayy68@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-6289526377530-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6289526377530)
-
-</div>
-
-### Official Channel
-
-<div align="center">
-  <a href="https://whatsapp.com/channel/0029Vb69z8n1dAvztHQTDu3r">
-    <img src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?logo=whatsapp&logoColor=white" alt="WhatsApp Channel" />
-  </a>
-  
-</div>
-
-
-## Example
-
-Do check out & run [example.ts](Example/example.ts) to see an example usage of the library.
-The script covers most common use cases.
-To run the example script, download or clone the repo and then type the following in a terminal:
-1. ``` cd path/to/Baileys ```
-2. ``` yarn ```
-3. ``` yarn example ```
-
-## Install
-
-Use the stable version:
-```
-yarn add @elrayyxml/baileys
-```
-
 Then import your code using:
 ```ts 
 import makeWASocket from '@elrayyxml/baileys'
 ```
-
-# Links
-
-- [Discord](https://discord.gg/nqssuNjjSH)
-- [Docs](https://guide.whiskeysockets.io/)
-
-# Index
-
-- [Connecting Account](#connecting-account)
-    - [Connect with QR-CODE](#starting-socket-with-qr-code)
-    - [Connect with Pairing Code](#starting-socket-with-pairing-code)
-    - [Receive Full History](#receive-full-history)
-- [Important Notes About Socket Config](#important-notes-about-socket-config)
-    - [Caching Group Metadata (Recommended)](#caching-group-metadata-recommended)
-    - [Improve Retry System & Decrypt Poll Votes](#improve-retry-system--decrypt-poll-votes)
-    - [Receive Notifications in Whatsapp App](#receive-notifications-in-whatsapp-app)
-
-- [Save Auth Info](#saving--restoring-sessions)
-- [Handling Events](#handling-events)
-    - [Example to Start](#example-to-start)
-    - [Decrypt Poll Votes](#decrypt-poll-votes)
-    - [Decrypt Event Response](#decrypt-event-response) 
-    - [Summary of Events on First Connection](#summary-of-events-on-first-connection)
-- [Implementing a Data Store](#implementing-a-data-store)
-- [Whatsapp IDs Explain](#whatsapp-ids-explain)
-- [Utility Functions](#utility-functions)
-- [Sending Messages](#sending-messages)
-    - [Non-Media Messages](#non-media-messages)
-        - [Text Message](#text-message)
-        - [Quote Message](#quote-message-works-with-all-types)
-        - [Mention User](#mention-user-works-with-most-types)
-        - [Forward Messages](#forward-messages)
-        - [Location Message](#location-message)
-        - [Live Location Message](#live-location-message) 
-        - [Contact Message](#contact-message)
-        - [Reaction Message](#reaction-message)
-        - [Pin Message](#pin-message)
-        - [Keep Message](#keep-message) 
-        - [Poll Message](#poll-message)
-        - [Poll Result Message](#poll-result-message) 
-        - [Call Message](#call-message) 
-        - [Event Message](#event-message) 
-        - [Order Message](#order-message) 
-        - [Product Message](#product-message)
-        - [Payment Message](#payment-message) 
-        - [Payment Invite Message](#payment-invite-message) 
-        - [Admin Invite Message](#invite-admin-message) 
-        - [Group Invite Message](#group-invite-message)
-        - [Sticker Pack Message](#sticker-pack-message) 
-        - [Share Phone Number Message](#share-phone-number-message) 
-        - [Request Phone Number Message](#request-phone-number-message) 
-        - [Buttons Reply Message](#buttons-reply-message) 
-        - [Buttons Message](#buttons-message)
-        - [Buttons List Message](#buttons-list-message) 
-        - [Buttons Product List Message](#buttons-product-list-message) 
-        - [Buttons Cards Message](#buttons-cards-message) 
-        - [Buttons Template Message](#buttons-template-message) 
-        - [Buttons Interactive Message](#buttons-interactive-message) 
-        - [Buttons Interactive Message PIX](#buttons-interactive-message-pix) 
-        - [Buttons Interactive Message PAY](#buttons-interactive-message-PAY) 
-        - [Status Mentions Message](#status-mentions-message) 
-        - [Shop Message](#shop-message) 
-        - [Collection Message](#collection-message) 
-    - [AI Icon Feature](ai-icon-feature) 
-    - [Sending with Link Preview](#sending-messages-with-link-previews)
-    - [Media Messages](#media-messages)
-        - [Gif Message](#gif-message)
-        - [Video Message](#video-message)
-        - [Audio Message](#audio-message)
-        - [Image Message](#image-message)
-        - [Album Message](#album-message) 
-        - [Ptv Video Message](#ptv-video-message) 
-        - [ViewOnce Message](#view-once-message)
-- [Modify Messages](#modify-messages)
-    - [Delete Messages (for everyone)](#deleting-messages-for-everyone)
-    - [Edit Messages](#editing-messages)
-- [Manipulating Media Messages](#manipulating-media-messages)
-    - [Thumbnail in Media Messages](#thumbnail-in-media-messages)
-    - [Downloading Media Messages](#downloading-media-messages)
-    - [Re-upload Media Message to Whatsapp](#re-upload-media-message-to-whatsapp)
-- [Reject Call](#reject-call)
-- [Send States in Chat](#send-states-in-chat)
-    - [Reading Messages](#reading-messages)
-    - [Update Presence](#update-presence)
-- [Modifying Chats](#modifying-chats)
-    - [Archive a Chat](#archive-a-chat)
-    - [Mute/Unmute a Chat](#muteunmute-a-chat)
-    - [Mark a Chat Read/Unread](#mark-a-chat-readunread)
-    - [Delete a Message for Me](#delete-a-message-for-me)
-    - [Delete a Chat](#delete-a-chat)
-    - [Star/Unstar a Message](#starunstar-a-message)
-    - [Disappearing Messages](#disappearing-messages)
-    - [Clear Messages](#clear-messages) 
-- [User Querys](#user-querys)
-    - [Check If ID Exists in Whatsapp](#check-if-id-exists-in-whatsapp)
-    - [Query Chat History (groups too)](#query-chat-history-groups-too)
-    - [Fetch Status](#fetch-status)
-    - [Fetch Profile Picture (groups too)](#fetch-profile-picture-groups-too)
-    - [Fetch Bussines Profile (such as description or category)](#fetch-bussines-profile-such-as-description-or-category)
-    - [Fetch Someone's Presence (if they're typing or online)](#fetch-someones-presence-if-theyre-typing-or-online)
-- [Change Profile](#change-profile)
-    - [Change Profile Status](#change-profile-status)
-    - [Change Profile Name](#change-profile-name)
-    - [Change Display Picture (groups too)](#change-display-picture-groups-too)
-    - [Remove display picture (groups too)](#remove-display-picture-groups-too)
-- [Groups](#groups)
-    - [Create a Group](#create-a-group)
-    - [Add/Remove or Demote/Promote](#addremove-or-demotepromote)
-    - [Change Subject (name)](#change-subject-name)
-    - [Change Description](#change-description)
-    - [Change Settings](#change-settings)
-    - [Leave a Group](#leave-a-group)
-    - [Get Invite Code](#get-invite-code)
-    - [Revoke Invite Code](#revoke-invite-code)
-    - [Join Using Invitation Code](#join-using-invitation-code)
-    - [Get Group Info by Invite Code](#get-group-info-by-invite-code)
-    - [Query Metadata (participants, name, description...)](#query-metadata-participants-name-description)
-    - [Join using groupInviteMessage](#join-using-groupinvitemessage)
-    - [Get Request Join List](#get-request-join-list)
-    - [Approve/Reject Request Join](#approvereject-request-join)
-    - [Get All Participating Groups Metadata](#get-all-participating-groups-metadata)
-    - [Toggle Ephemeral](#toggle-ephemeral)
-    - [Change Add Mode](#change-add-mode)
-- [Privacy](#privacy)
-    - [Block/Unblock User](#blockunblock-user)
-    - [Get Privacy Settings](#get-privacy-settings)
-    - [Get BlockList](#get-blocklist)
-    - [Update LastSeen Privacy](#update-lastseen-privacy)
-    - [Update Online Privacy](#update-online-privacy)
-    - [Update Profile Picture Privacy](#update-profile-picture-privacy)
-    - [Update Status Privacy](#update-status-privacy)
-    - [Update Read Receipts Privacy](#update-read-receipts-privacy)
-    - [Update Groups Add Privacy](#update-groups-add-privacy)
-    - [Update Default Disappearing Mode](#update-default-disappearing-mode)
-- [Broadcast Lists & Stories](#broadcast-lists--stories)
-    - [Send Broadcast & Stories](#send-broadcast--stories)
-    - [Query a Broadcast List's Recipients & Name](#query-a-broadcast-lists-recipients--name)
-- [Writing Custom Functionality](#writing-custom-functionality)
-    - [Enabling Debug Level in Baileys Logs](#enabling-debug-level-in-baileys-logs)
-    - [How Whatsapp Communicate With Us](#how-whatsapp-communicate-with-us)
-    - [Register a Callback for Websocket Events](#register-a-callback-for-websocket-events)
-
-## Connecting Account
-
-WhatsApp provides a multi-device API that allows Baileys to be authenticated as a second WhatsApp client by scanning a **QR code** or **Pairing Code** with WhatsApp on your phone.
-
-> [!NOTE]
-> **[Here](#example-to-start) is a simple example of event handling**
-
-> [!TIP]
-> **You can see all supported socket configs [here](https://baileys.whiskeysockets.io/types/SocketConfig.html) (Recommended)**
-
-### Starting socket with **QR-CODE**
-
-> [!TIP]
-> You can customize browser name if you connect with **QR-CODE**, with `Browser` constant, we have some browsers config, **see [here](https://baileys.whiskeysockets.io/types/BrowsersMap.html)**
 
 ```ts
 import makeWASocket from '@elrayyxml/baileys'
@@ -666,7 +484,7 @@ const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'END:VCARD'
 
 await sock.sendMessage(
-    id,
+    jid,
     { 
         contacts: { 
             displayName: 'ElrayyXml', 
@@ -1575,6 +1393,45 @@ await sock.sendMessage(
    } 
 )
  ```
+ 
+ ### Group Status Message
+```ts
+// Text
+await sock.groupStatusMessage(jid,
+    {
+      text: 'Hello Everyone :3', 
+      font: 2, // optional
+      textColor: 'FF0000', // optional
+      backgroundColor: '#000000' // optional
+    }
+)
+
+// Image
+await sock.groupStatusMessage(jid,
+    {
+      Image: { url: 'https://example.com/ruriooe.jpg' }, or image buffer
+      caption: 'Hello Everyone :3' // optional
+    }
+)
+
+// Video
+await sock.groupStatusMessage(jid,
+    {
+      video: { url: 'https://example.com/ruriooe.mp4' }, or video buffer
+      caption: 'Hello Everyone :3' // optional
+    }
+)
+
+// Audio
+await sock.groupStatusMessage(jid,
+    {
+      audio: { url: 'https://example.com/ruriooe.mp3' }, or audio buffer
+      backgroundColor: '#000000', // optional 
+      mimetype: 'audio/mp4', 
+      ppt: true
+    }, 
+)
+```
 
 ### Status Mentions Message
 ```ts
