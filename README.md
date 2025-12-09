@@ -12,7 +12,7 @@
 
 <p><em>Baileys Modified</em></p>
 
-<img src="https://files.catbox.moe/7m4cuw.jpg" width="300" alt="Cover Banner" />
+<img src="https://files.catbox.moe/84up1c.jpg" width="300" alt="Cover Banner" />
 
 </div>
 
