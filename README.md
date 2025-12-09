@@ -24,7 +24,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-API-green.svg?logo=whatsapp)](https://whatsapp.com)
 [![Node.js](https://img.shields.io/badge/Node.js-20%2B-green.svg)](https://nodejs.org)
-[![npm downloads](https://img.shields.io/npm/dm/@elrayyxml/baileys.svg?color=blueviolet&label=Downloads%20per%20Bulan&logo=npm)](https://www.npmjs.com/package/@elrayyxml/baileys)
+[![npm downloads](https://img.shields.io/npm/dt/@elrayyxml/baileys.svg?color=blueviolet&label=Total%20Downloads&logo=npm)](https://www.npmjs.com/package/@elrayyxml/baileys)
 [![REST API](https://img.shields.io/badge/REST_API-green.svg)](https://api.nexray.web.id)
 
 </div>
