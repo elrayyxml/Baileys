@@ -1,19 +1,17 @@
 {
   "name": "@elrayyxml/baileys",
-  "version": "1.0.2",
+  "version": "1.0.7",
   "description": "Baileys Modified ElrayyXml",
   "keywords": [
     "baileys",
-    "elrayyxml",
-    "Baileys",
-    "WhatsApp",
-    "WhatsApp-API",
     "whatsapp",
     "whatsapp-api",
     "whatsapp-web",
     "whatsapp-bot",
     "automation",
-    "multi-device"
+    "multi-device",
+    "elrayyxml",
+    "nexray"
   ],
   "homepage": "https://www.npmjs.com/package/@elrayyxml/baileys",
     "repository": {
@@ -120,6 +118,7 @@
     "lib": "lib"
   }
 }
+
 
 
 
